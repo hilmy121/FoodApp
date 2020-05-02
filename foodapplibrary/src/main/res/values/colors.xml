@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="falColorPrimary" tools:override="true">#FFFFFF</color>
+    <color name="falColorPrimaryVariant" tools:override="true">#F5F5F5</color>
+    <color name="falColorSecondary" tools:override="true">#FB1F1F</color>
+    <color name="falColorSecondaryVariant" tools:override="true">#FC4747</color>
+    <color name="falColorOnPrimary" tools:override="true">#3D404C</color>
+    <color name="falColorOnSecondary" tools:override="true">#FFFFFF</color>
+
+    <color name="falColorOnBackground" tools:override="true">#000000</color>
+    <color name="falColorOnSecondary_normal" tools:override="true">#50FFFFFF</color>
+    <color name="falColorOnSecondary_disabled" tools:override="true">#18FFFFFF</color>
+    <color name="falColorOnErrorLogin" tools:override="true">#fffacd</color>
+    
+    <color name="falColorPrimaryContent" tools:override="true">#3D404C</color>
+    <color name="falColorCategoryText" tools:override="true">#785E4D</color>
+    <color name="falColorPriceText" tools:override="true">#605A56</color>
+    <color name="falColorDotDivider" tools:override="true">#3D404C</color>
+    <color name="falColorStar" tools:override="true">#F9C817</color>
+    <color name="falColorHeart" tools:override="true">#FB1F1F</color>
+    <color name="falColorDivider" tools:override="true">#E3E3E3</color>
+
+    <color name="falColorListHeaderText">#000000</color>
+
+    <color name="falColorBottomNavigation_selected" tools:override="true">#FB1F1F</color>
+    <color name="falColorBottomNavigation_normal" tools:override="true">#EBE9F4</color>
+    <color name="falColorToggles_disabled">#EBE9F4</color>
+    <color name="falColorEditIcon" tools:override="true">#EBE9F4</color>
+
+    <color name="falColorIconCategoryBackground" tools:override="true">#F5F5F5</color>
+    <color name="falColorIconCategoryText" tools:override="true">#474A56</color>
+    <color name="falOutlineButtonBackground" tools:override="true">#F5F5F5</color>
+
+    <color name="falColorCounterText" tools:override="true">#9199AA</color>
+    <color name="falColorFilterText" tools:override="true">#9199AA</color>
+    <color name="falColorHintText" tools:override="true">#c5c6c9</color>
+</resources>

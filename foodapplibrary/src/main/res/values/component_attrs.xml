@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    Food List Item   -->
+    <declare-styleable name="FoodComponent">
+        <attr name="food_image_src" format="reference"/>
+        <attr name="food_title" format="string"/>
+        <attr name="food_category" format="string"/>
+        <attr name="food_price" format="string"/>
+        <attr name="food_rating" format="string"/>
+    </declare-styleable>
+
+    <!--    Food List Item   -->
+    <declare-styleable name="FoodItem">
+        <attr name="food_image_src"/>
+        <attr name="food_title"/>
+        <attr name="food_category"/>
+        <attr name="food_price"/>
+        <attr name="food_rating"/>
+    </declare-styleable>
+
+    <!--    Food Tile   -->
+    <declare-styleable name="FoodTile">
+        <attr name="food_image_src"/>
+        <attr name="food_title"/>
+    </declare-styleable>
+
+    <!--    Food Category   -->
+    <declare-styleable name="FoodCategoryIcon">
+        <attr name="food_icon_src" format="reference"/>
+        <attr name="food_category_description" format="string"/>
+    </declare-styleable>
+
+    <!--    Counter   -->
+    <declare-styleable name="Counter">
+        <attr name="label" format="string"/>
+    </declare-styleable>
+</resources>

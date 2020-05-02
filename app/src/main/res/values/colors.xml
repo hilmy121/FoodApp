@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--    Green Theme     -->
+    <!--<color name="falColorSecondary">#00b3a6</color>
+    <color name="falColorSecondaryVariant">#018786</color>
+    <color name="falColorHeart">#6200ee</color>
+    <color name="falColorBottomNavigation_selected">#6200ee</color>-->
+</resources>

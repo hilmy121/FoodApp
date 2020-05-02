@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="LoginThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/falColorSecondaryVariant</item>
+        <item name="colorPrimaryDark">@color/falColorSecondaryVariant</item>
+        <item name="colorAccent">@color/falColorOnSecondary</item>
+
+        <item name="colorControlNormal">@color/falColorOnSecondary_normal</item>
+        <item name="colorControlActivated">@color/falColorOnSecondary</item>
+        <item name="colorControlHighlight">@color/falColorOnSecondary</item>
+
+        <item name="android:windowBackground">@drawable/fal_branded_logo_bg</item>
+    </style>
+
+    <style name="LoginThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/falColorSecondaryVariant</item>
+        <item name="colorPrimaryDark">@color/falColorSecondaryVariant</item>
+        <item name="colorAccent">@color/falColorOnSecondary</item>
+
+        <item name="colorControlNormal">@color/falColorOnSecondary_normal</item>
+        <item name="colorControlActivated">@color/falColorOnSecondary</item>
+        <item name="colorControlHighlight">@color/falColorOnSecondary</item>
+
+        <item name="android:windowBackground">@drawable/fal_branded_logo_bg</item>
+    </style>
+
+    <style name="FoodAppMainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/falColorPrimary</item>
+        <item name="colorPrimaryDark">@color/falColorPrimaryVariant</item>
+        <item name="colorAccent">@color/falColorSecondary</item>
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textColorPrimary">@color/falColorOnPrimary</item>
+        <item name="android:textColorSecondary">@drawable/fal_toggle_selector</item>
+        <item name="android:actionMenuTextAppearance">@style/FoodAppMainTheme_ActionMenuTextAppearance</item>
+        <item name="android:windowBackground">@color/falColorPrimary</item>
+
+        <item name="android:radioButtonStyle">@style/FoodApp_Radio_Button</item>
+        <item name="android:editTextStyle">@style/FoodApp_Edittext</item>
+        <item name="editTextStyle">@style/FoodApp_Edittext</item>
+        <item name="checkboxStyle">@style/FoodApp_CheckBox</item>
+    </style>
+
+    <style name="FoodApp_Radio_Button" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:paddingLeft">@dimen/fal_horizontal_margin</item>
+        <item name="android:paddingStart">@dimen/fal_horizontal_margin</item>
+    </style>
+
+    <style name="FoodApp_Edittext" parent="@android:style/Widget.EditText">
+        <item name="backgroundTint">@color/falColorOnPrimary</item>
+        <item name="android:textCursorDrawable">@drawable/fal_cursos_accent</item>
+        <item name="android:textColorHint">@color/falColorHintText</item>
+    </style>
+
+    <style name="FoodApp_CheckBox" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:paddingLeft">@dimen/fal_horizontal_margin</item>
+        <item name="android:paddingStart">@dimen/fal_horizontal_margin</item>
+    </style>
+
+    <style name="TextInputLayoutAppearance" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="colorControlNormal">@color/falColorOnPrimary</item>
+        <item name="colorControlActivated">@color/falColorOnPrimary</item>
+        <item name="colorControlHighlight">@color/falColorOnPrimary</item>
+        <item name="android:textCursorDrawable">@drawable/fal_cursos_accent</item>
+        <item name="android:textColorHint">@color/falColorHintText</item>
+    </style>
+
+    <style name="FoodAppMainTheme_ActionMenuTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="FoodApp_Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">19sp</item>
+    </style>
+
+    <style name="FoodApp_Subtitle1" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoodApp_Subtitle2" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="FoodApp_Subhead1" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FoodApp_Subhead2" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FoodApp_Label" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FoodApp_LabelAccent" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorSecondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FoodApp_CategoryLabel" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorCategoryText</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="FoodApp_Body1" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FoodApp_Body2" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FoodApp_ListHeader" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorListHeaderText</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="FoodApp_ListItem" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="FoodApp_PriceText" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorPriceText</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="FoodApp_PriceTextColored" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="FoodApp_PriceTextAccent" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorSecondary</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="FoodApp_ButtonOutline" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/fal_borderless_button_bg</item>
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minWidth">42dp</item>
+        <item name="android:minHeight">18dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="FoodApp_ButtonOutlineAccent" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/fal_borderless_button_accent_bg</item>
+        <item name="android:textColor">@drawable/fal_borderless_button_accent_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minWidth">52dp</item>
+        <item name="android:minHeight">18dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="FoodApp_Button" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/fal_btn_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:minWidth">72dp</item>
+        <item name="android:minHeight">40dp</item>
+    </style>
+
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnSecondary</item>
+    </style>
+
+    <style name="login_error_appearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/falColorOnErrorLogin</item>
+    </style>
+
+    <style name="ColoredProgressBar" parent="LoginThemeLight">
+        <item name="colorAccent">@color/falColorOnSecondary</item>
+    </style>
+</resources>

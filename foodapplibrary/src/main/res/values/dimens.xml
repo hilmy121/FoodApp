@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fal_button_page_margin_top">2dp</dimen>
+    <dimen name="fal_button_sign_up_margin_top">43dp</dimen>
+    <dimen name="fal_button_sign_in_margin_top">4dp</dimen>
+
+    <dimen name="fal_edittext_username_margin_top_sign_up">57dp</dimen>
+    <dimen name="fal_edittext_username_margin_top_sign_in">14dp</dimen>
+
+    <dimen name="fal_edittext_password_margin_top_sign_up">21dp</dimen>
+    <dimen name="fal_edittext_password_margin_top_sign_in">7dp</dimen>
+
+    <dimen name="fal_edittext_phone_margin_top">21dp</dimen>
+
+    <dimen name="fal_login_edittext_width">246dp</dimen>
+    <dimen name="fal_login_button_sing_width">249dp</dimen>
+
+    <dimen name="fal_action_forget_password_margin_top">4dp</dimen>
+    <dimen name="fal_label_sign_with_margin_top">4dp</dimen>
+    <dimen name="fal_social_media_buttons_margin_top">3dp</dimen>
+    <dimen name="fal_action_need_help_margin_bottom">8dp</dimen>
+
+    <!-- Food Item -->
+    <dimen name="fal_list_gutter">18dp</dimen>
+
+    <!-- Food Tile -->
+    <dimen name="fal_tile_size_small">128dp</dimen>
+    <dimen name="fal_tile_size_medium">152dp</dimen>
+
+    <!--    Main Page Vertical Margins  -->
+    <dimen name="fal_horizontal_margin">20dp</dimen>
+    <dimen name="fal_verticla_margin_small">16dp</dimen>
+    <dimen name="fal_verticla_margin_medium">24dp</dimen>
+    <dimen name="fal_verticla_margin_big">31dp</dimen>
+    <dimen name="fal_default_radius">7dp</dimen>
+</resources>

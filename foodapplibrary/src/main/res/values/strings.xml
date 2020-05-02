@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Food App Library</string>
+    <string name="fal_action_sign_up">Sign Up</string>
+    <string name="fal_action_sign_in">Sign In</string>
+    <string name="fal_label_username">Username</string>
+    <string name="fal_label_password">Password</string>
+    <string name="fal_label_phone">Mobile No</string>
+    <string name="fal_action_forget_password">Forget Password?</string>
+    <string name="fal_label_or_signin_in_with">or Signin with</string>
+    <string name="fal_action_need_help">Need Help?</string>
+    
+    <string name="fal_accessibility_increase_button">increase button</string>
+    <string name="fal_accessibility_decrease_button">decrease button</string>
+</resources>

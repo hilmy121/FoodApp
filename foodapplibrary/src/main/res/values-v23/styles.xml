@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LoginThemeLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/falColorSecondaryVariant</item>
+        <item name="colorPrimaryDark">@color/falColorSecondaryVariant</item>
+        <item name="colorAccent">@color/falColorOnSecondary</item>
+
+        <item name="colorControlNormal">@color/falColorOnSecondary_normal</item>
+        <item name="colorControlActivated">@color/falColorOnSecondary</item>
+        <item name="colorControlHighlight">@color/falColorOnSecondary</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="android:windowBackground">@drawable/fal_branded_logo_bg</item>
+    </style>
+
+    <style name="FoodAppMainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/falColorPrimary</item>
+        <item name="colorPrimaryDark">@color/falColorPrimaryVariant</item>
+        <item name="colorAccent">@color/falColorSecondary</item>
+        <item name="android:textColor">@color/falColorOnPrimary</item>
+        <item name="android:textColorPrimary">@color/falColorOnPrimary</item>
+        <item name="android:textColorSecondary">@drawable/fal_toggle_selector</item>
+        <item name="android:actionMenuTextAppearance">@style/FoodAppMainTheme_ActionMenuTextAppearance</item>
+        <item name="android:windowBackground">@color/falColorPrimary</item>
+
+        <item name="android:radioButtonStyle">@style/FoodApp_Radio_Button</item>
+        <item name="android:editTextStyle">@style/FoodApp_Edittext</item>
+        <item name="editTextStyle">@style/FoodApp_Edittext</item>
+        <item name="checkboxStyle">@style/FoodApp_CheckBox</item>
+
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

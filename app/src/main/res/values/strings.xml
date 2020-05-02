@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">FoodAppDemo</string>
+    <string name="action_what_is_new">What\'s New</string>
+
+    <string name="home_label_offers_for_you">Offers For you</string>
+    <string name="home_label_restaurants">Restaurants</string>
+
+    <string name="action_add_filters">Filters</string>
+
+    <string name="search_demo_product_title">Hot Chicken Burger</string>
+    <string name="search_action_add">Add</string>
+    <string name="search_action_edit_address">Address</string>
+
+    <string name="searhc_label_recommend">Recommend</string>
+
+    <string name="payment_demo_product_title">Chicken Salad Wrap</string>
+    <string name="payment_demo_category">Fast Food</string>
+    <string name="payment_label_hotel_details">Hotel Details</string>
+    <string name="payment_accessibility_coupon_icon">coupon_icon</string>
+    <string name="payment_label_apply_coupon_code">Apply coupon code</string>
+    <string name="payment_move_forward_button">move forward button</string>
+    <string name="payment_action_enter_coupon">Enter</string>
+    <string name="payment_label_amount_details">Amount Details</string>
+    <string name="payment_label_total">Total</string>
+    <string name="payment_demo_amount">₹ 150</string>
+    <string name="payment_label_payment_method">Payment Method</string>
+    <string name="payment_option_debit_card">Debit Card</string>
+    <string name="payment_option_net_banking">Net Banking</string>
+    <string name="payment_option_cash_on_delivery">Cash on Delivery</string>
+    <string name="payment_option_others">Others</string>
+
+    <string name="deliver_msg_deliver_to_home">Delivery to Home Address</string>
+    <string name="deliver_accessibility_scooter_image">scooter image</string>
+    <string name="deliver_action_add_address">Add Address</string>
+
+
+    <string name="msg_delivery_time">Delivery in %d mins</string>
+    <string name="action_order_now">Order Now</string>
+
+
+    <string name="controls_example_hint1">Text Capture 1</string>
+    <string name="controls_example_hint2">Text Capture 2</string>
+    <string name="controls_example_hint3">Text Capture 3</string>
+
+    <string name="controls_option1">Some Option</string>
+    <string name="controls_option2">Another Option</string>
+    <string name="controls_option3">Disabled Option</string>
+    <string name="controls_option4">Yet Another Option</string>
+
+    <string name="msg_image_source">from left to right the source is src or bitmap respectively</string>
+
+    <string name="menu_home_text">Home</string>
+    <string name="menu_search_text">Search</string>
+    <string name="menu_favorite_text">Favorite</string>
+    <string name="menu_shopping_text">Shopping</string>
+    <string name="menu_user_text">User</string>
+</resources>

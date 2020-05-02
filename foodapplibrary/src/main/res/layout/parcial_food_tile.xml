@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="@dimen/fal_tile_size_small"
+                android:layout_height="@dimen/fal_tile_size_small">
+    <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_food"
+            android:scaleType="fitXY"
+            android:layout_width="@dimen/fal_tile_size_small"
+            android:layout_height="@dimen/fal_tile_size_small"
+            app:riv_corner_radius="@dimen/fal_default_radius"
+            tools:src="@drawable/fal_image_placeholder_drink"
+    />
+    <TextView
+            android:background="@drawable/fal_scrim_bg"
+            android:id="@+id/text_food_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Placeholder text"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@+id/image_food"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:padding="10dp"
+            android:textStyle="bold"
+    />
+</RelativeLayout>

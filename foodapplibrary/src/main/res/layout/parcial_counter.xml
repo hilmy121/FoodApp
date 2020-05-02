@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>
+    <TextView
+            style="@style/FoodApp_Label"
+            android:id="@+id/text_counter_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_minus"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintBaseline_toBaselineOf="@id/text_counter"
+            tools:text="Quantity"
+    />
+    <ImageView
+            android:id="@+id/button_minus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="5dp"
+            android:padding="9dp"
+            android:tint="@color/falColorSecondary"
+            app:srcCompat="@drawable/fal_ic_minus"
+            app:layout_constraintStart_toEndOf="@id/text_counter_label"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/text_counter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/fal_accessibility_increase_button"
+            android:background="@drawable/fal_counter_ripple_effect"
+
+    />
+    <TextView
+            android:id="@+id/text_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fal_counter_bg"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textColor="@color/falColorCounterText"
+            app:layout_constraintStart_toEndOf="@+id/button_minus"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button_plus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="2"
+    />
+    <ImageView
+            android:id="@+id/button_plus"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="5dp"
+            android:padding="9dp"
+            android:tint="@color/falColorSecondary"
+            app:srcCompat="@drawable/fal_ic_plus"
+            app:layout_constraintStart_toEndOf="@+id/text_counter"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:contentDescription="@string/fal_accessibility_decrease_button"
+            android:background="@drawable/fal_counter_ripple_effect"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
