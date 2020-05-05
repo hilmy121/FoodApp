@@ -10,6 +10,7 @@ import androidx.vectordrawable.graphics.drawable.AnimatedVectorDrawableCompat
 
 class FavoriteToggleButton : ImageView {
 
+
     var isChecked: Boolean = false
         get
         set(value) {

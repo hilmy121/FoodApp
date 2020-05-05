@@ -127,16 +127,12 @@ abstract class FoodAppLogin : AppCompatActivity(), OnEditorActionListener{
 
     fun goToPage(page : LOGIN_PAGE = LOGIN_PAGE.SIGN_UP){
 
-        /**
-         * closes the virtual keyboard when changing pages to prevent
-         * imeoptions from running the Sign In / Sign Up button
-         */
+
         val view = this.currentFocus
         if (view != null) {
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
             imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
-
         when(page){
             FoodAppLogin.LOGIN_PAGE.SING_IN -> {
                 currentPage = page;
