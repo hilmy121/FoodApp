@@ -45,7 +45,7 @@ abstract class FoodAppLogin : AppCompatActivity(), OnEditorActionListener{
 
     abstract var socialMediaOptions: HashMap<String,Int>
 
-    var currentPage : LOGIN_PAGE = LOGIN_PAGE.SIGN_UP;
+    var currentPage : LOGIN_PAGE = LOGIN_PAGE.SING_IN
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -119,13 +119,13 @@ abstract class FoodAppLogin : AppCompatActivity(), OnEditorActionListener{
                 sign(currentPage,tie_username.text.toString(),tie_password.text.toString(),tie_phone.text.toString())
         }
 
-        goToPage(LOGIN_PAGE.SIGN_UP)
+        goToPage(LOGIN_PAGE.SING_IN)
 
         addSocialMediaIcons()
 
     }
 
-    fun goToPage(page : LOGIN_PAGE = LOGIN_PAGE.SIGN_UP){
+    fun goToPage(page : LOGIN_PAGE = LOGIN_PAGE.SING_IN){
 
 
         val view = this.currentFocus
